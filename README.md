@@ -30,5 +30,5 @@ Install the libraries, then run `var_test.ipynb` from top to bottom:
 
 `pip install yfinance pandas numpy matplotlib scipy ipykernel`
 
-## Next step
+## Next project
 Test a rolling VaR using the previous 250 trading days.
