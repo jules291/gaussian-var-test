@@ -29,6 +29,3 @@ the normal curve predicts.
 Install the libraries, then run `var_test.ipynb` from top to bottom:
 
 `pip install yfinance pandas numpy matplotlib scipy ipykernel`
-
-## Next project
-Test a rolling VaR using the previous 250 trading days.
