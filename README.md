@@ -29,3 +29,15 @@ the normal curve predicts.
 Install the libraries, then run `var_test.ipynb` from top to bottom:
 
 `pip install yfinance pandas numpy matplotlib scipy ipykernel`
+
+## Part 2: Monthly VaR
+Each month's VaR used the previous month's mean and standard
+deviation. Both models were compared on the same 4,005 days.
+
+- Fixed VaR breach rate: 2.02%
+- Monthly VaR breaches: 155 (3.87%)
+- Target: 1%
+
+Monthly updating did not achieve the target. The fixed model was
+estimated using the full period, including future data, so this
+is not an equal forecasting comparison.
