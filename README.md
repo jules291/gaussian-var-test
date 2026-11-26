@@ -41,3 +41,16 @@ deviation. Both models were compared on the same 4,005 days.
 Monthly updating did not achieve the target. The fixed model was
 estimated using the full period, including future data, so this
 is not an equal forecasting comparison.
+
+## Part 3: 250-Day Rolling VaR
+Each day's VaR used only the previous 250 trading days.
+All three models were compared on the same 3,773 days.
+
+| Model | Breach rate (target: 1%) |
+|---|---|
+| Rolling VaR | 2.65% (100 breaches) |
+| Monthly VaR | 3.87% |
+| Fixed VaR (uses future data) | 1.96% |
+
+The rolling model did better than the monthly model, but none
+of the three reached the target.
